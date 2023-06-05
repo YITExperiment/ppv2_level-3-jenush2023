@@ -15,7 +15,13 @@ def rectangle(horizontal,vertical,color):
 
 t.penup()
 t.speed('slow')
- urple')
+t.bgcolor('Dodger blue')
+
+#feet
+t.goto(-100, -150)
+rectangle(50,20,'blue')
+t.goto(-30,-150)
+rectangle(50,20,'blue')
 
 #legs
 t.goto(-25, -50)
